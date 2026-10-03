@@ -1,3 +1,4 @@
+import BookList from "./components/BookList";
 import { books } from "./data/books";
 
 // TODO (Zadanie 1): zastąp poniższą listę komponentem <BookList books={books} />,
@@ -6,13 +7,9 @@ import { books } from "./data/books";
 
 export default function App() {
   return (
-    <>
+    <div>
       <h1>📚 Katalog książek</h1>
-      <ul>
-        {books.map((book) => (
-          <li key={book.id}>{book.title}</li>
-        ))}
-      </ul>
-    </>
+      <BookList books={books} />
+    </div>
   );
 }
