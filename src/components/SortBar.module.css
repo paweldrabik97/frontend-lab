@@ -1,0 +1,9 @@
+.sortBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
+}

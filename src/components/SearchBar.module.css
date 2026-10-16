@@ -1,0 +1,27 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: min(100%, 34rem);
+  padding: 0.35rem;
+  background: #ffffff;
+  border: 1px solid #dbe3ef;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.08);
+  margin-bottom: 1rem;
+}
+
+.input {
+  min-width: 0;
+  flex: 1;
+  padding: 0.2rem 0.5rem;
+  color: #1f2937;
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.input::placeholder {
+  color: #9aa6b6;
+}

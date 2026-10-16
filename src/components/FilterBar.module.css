@@ -1,0 +1,15 @@
+.filterBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
